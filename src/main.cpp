@@ -1,5 +1,6 @@
 #include<iostream>
 #include<fstream>
+
 using namespace std ;
 
 
@@ -8,8 +9,10 @@ int main(){
     int imageHeight = 256;
     int imageWidth = 256;
 
-    cout<<"P3\n" <<imageHeight<<" "<<imageWidth<<"\n";
-    cout<<"255\n";
+   
+    ofstream outputImage("output2.ppm");
+    outputImage << "P3\n"<<imageHeight<<" "<<imageWidth<<"\n"<<"255\n";
+    
 
     for(int i = 0 ; i< imageWidth;i++){
         for(int j =0 ; j<imageHeight;j++){
@@ -25,11 +28,13 @@ int main(){
             int Cg = int(255.999 * g);
             int Cb = int(255.999 * b);
 
-            cout<<Cr<<" "<<Cg<<" "<<Cb<<"\n";
+            outputImage<<Cr<<" "<<Cg<<" "<<Cb<<"\n";
 
 
         }
     }
+
+    outputImage.close();
 
 
 
