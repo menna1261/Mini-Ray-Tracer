@@ -1,0 +1,3 @@
+/home/Menna/Ray tracer/Mini-Ray-Tracer/build/CMakeFiles/ray_tracer.dir
+/home/Menna/Ray tracer/Mini-Ray-Tracer/build/CMakeFiles/edit_cache.dir
+/home/Menna/Ray tracer/Mini-Ray-Tracer/build/CMakeFiles/rebuild_cache.dir
