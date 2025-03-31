@@ -3,9 +3,11 @@
 
 CMakeFiles/ray_tracer.dir/src/main.cpp.o
  /home/Menna/Ray tracer/Mini-Ray-Tracer/src/main.cpp
+ /home/Menna/Ray tracer/Mini-Ray-Tracer/headers/Vec3.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
+ /usr/include/assert.h
  /usr/include/c++/13/backward/binders.h
  /usr/include/c++/13/bit
  /usr/include/c++/13/bits/alloc_traits.h
@@ -64,6 +66,7 @@ CMakeFiles/ray_tracer.dir/src/main.cpp.o
  /usr/include/c++/13/bits/uses_allocator.h
  /usr/include/c++/13/bits/uses_allocator_args.h
  /usr/include/c++/13/bits/utility.h
+ /usr/include/c++/13/cassert
  /usr/include/c++/13/cctype
  /usr/include/c++/13/cerrno
  /usr/include/c++/13/clocale

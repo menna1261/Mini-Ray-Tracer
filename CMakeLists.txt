@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # Add source files
 find_package(OpenCV REQUIRED)
-include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(${OpenCV_INCLUDE_DIRS} headers)
 
 add_executable(ray_tracer src/main.cpp)
 target_link_libraries(ray_tracer ${OpenCV_LIBS})

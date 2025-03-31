@@ -153,4 +153,6 @@ CMakeFiles/ray_tracer.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc
+ /usr/include/c++/13/bits/fstream.tcc \
+ /home/Menna/Ray\ tracer/Mini-Ray-Tracer/headers/Vec3.h \
+ /usr/include/c++/13/cassert /usr/include/assert.h
