@@ -57,8 +57,19 @@ class Vec3{
      
         return *this;
     }
+    
+    Vec3 operator  * (T num){
+     
+        val[0]*=num;
+        val[1]*=num;
+        val[2]*=num;
+     
+        return *this;
+    }
 
-    //Division
+
+
+    //Divisions
     Vec3 operator /= (T num){
         
         assert(num != 0);
@@ -82,6 +93,14 @@ class Vec3{
     friend std::ostream& operator << (std::ostream& out, const Vec3<T>&v){
         out<<v.val[0]<<" " <<v.val[1] <<" "<<v.val[2];
         return out;
+    }
+
+    friend Vec3<T> operator + (Vec3<T>& v1, Vec3<T>& v2){
+        v1[0] += v2[0];
+        v1[1] += v2[1];
+        v1[2] += v2[2];
+
+        return v1;
     }
 
 };
