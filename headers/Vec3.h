@@ -6,6 +6,7 @@ class Vec3{
 
     public:
     T val[3];
+    T x , y, z;
  
 
     public :
@@ -13,6 +14,7 @@ class Vec3{
         val[0] = x;
         val[1] = y;
         val[2] = z;
+        this->x = x; this->y = y; this->z = z;
     }
  
     // Accessing elements
@@ -73,11 +75,11 @@ class Vec3{
         return res;
     }
 
+    //printing the vector
+    friend std::ostream& operator << (std::ostream& out, const Vec3<T>&v){
+        out<<v.val[0]<<" " <<v.val[1] <<" "<<v.val[2];
+        return out;
+    }
+
 };
-//printing vector elements
-//make sure you return by refrence not value
-template<typename T>
-std::ostream& operator << (std::ostream& out, const Vec3<T>&v){
-    out<<v.val[0]<<" " <<v.val[1] <<" "<<v.val[2];
-    return out;
-}
+

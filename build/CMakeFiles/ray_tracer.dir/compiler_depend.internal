@@ -3,6 +3,7 @@
 
 CMakeFiles/ray_tracer.dir/src/main.cpp.o
  /home/Menna/Ray tracer/Mini-Ray-Tracer/src/main.cpp
+ /home/Menna/Ray tracer/Mini-Ray-Tracer/headers/Color.h
  /home/Menna/Ray tracer/Mini-Ray-Tracer/headers/Vec3.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
