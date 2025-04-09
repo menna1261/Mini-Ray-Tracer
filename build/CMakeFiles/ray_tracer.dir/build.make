@@ -128,6 +128,9 @@ ray_tracer: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.6.0
 ray_tracer: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.6.0
 ray_tracer: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.6.0
 ray_tracer: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.6.0
+ray_tracer: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1
+ray_tracer: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1
+ray_tracer: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
 ray_tracer: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.6.0
 ray_tracer: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.6.0
 ray_tracer: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.6.0

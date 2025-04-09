@@ -227,6 +227,9 @@ MinRayTracer_SOURCE_DIR:STATIC=/home/Menna/Ray tracer/Mini-Ray-Tracer
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/opencv4
 
+//The directory containing a CMake configuration file for SFML.
+SFML_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SFML
+
 
 ########################
 # INTERNAL cache entries
